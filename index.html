@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog Collection</title>
+<meta name="description" content="Bộ sưu tập blog kiến thức — IELTS cùng cô Hiền & Tư duy cùng Duongg.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b1020;
+    --card: #141a2e;
+    --text: #e7ecf5;
+    --muted: #9aa6c0;
+  }
+  body {
+    font-family: 'Be Vietnam Pro', system-ui, sans-serif;
+    background: radial-gradient(1200px 600px at 20% -10%, #1b2547 0%, transparent 60%),
+                radial-gradient(1000px 600px at 100% 0%, #2a1630 0%, transparent 55%),
+                var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 20px 40px;
+  }
+  .badge {
+    display: inline-block;
+    padding: .35rem 1rem;
+    border-radius: 999px;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.12);
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 1.4rem;
+  }
+  h1 {
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    font-weight: 800;
+    letter-spacing: -.02em;
+    background: linear-gradient(100deg, #7cc0ff 0%, #ffffff 45%, #ffb27c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    line-height: 1.1;
+  }
+  .sub {
+    color: var(--muted);
+    text-align: center;
+    max-width: 560px;
+    margin: 1rem auto 2.8rem;
+    font-size: 1.02rem;
+    line-height: 1.6;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.4rem;
+    width: 100%;
+    max-width: 860px;
+  }
+  .card {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: var(--card);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 20px;
+    padding: 2rem 1.8rem;
+    overflow: hidden;
+    transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 5px;
+  }
+  .card.ielts::before { background: linear-gradient(90deg, #0d1b3e, #235a8f, #4f9dde); }
+  .card.duongg::before { background: linear-gradient(90deg, #9a3412, #ea580c, #f59e0b); }
+  .card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(255,255,255,.18);
+  }
+  .card.ielts:hover { box-shadow: 0 22px 48px rgba(35,90,143,.35); }
+  .card.duongg:hover { box-shadow: 0 22px 48px rgba(234,88,12,.32); }
+  .ico {
+    width: 54px; height: 54px;
+    border-radius: 14px;
+    display: grid; place-items: center;
+    font-size: 1.7rem;
+    margin-bottom: 1.1rem;
+  }
+  .card.ielts .ico { background: rgba(79,157,222,.16); }
+  .card.duongg .ico { background: rgba(245,158,11,.16); }
+  .card h2 { font-size: 1.35rem; font-weight: 700; margin-bottom: .25rem; }
+  .card .by { color: var(--muted); font-size: .82rem; margin-bottom: .8rem; }
+  .card .by b { color: var(--text); font-weight: 600; }
+  .card p { color: var(--muted); font-size: .92rem; line-height: 1.55; margin-bottom: 1.1rem; }
+  .go {
+    display: inline-flex; align-items: center; gap: .4rem;
+    font-weight: 700; font-size: .9rem;
+  }
+  .card.ielts .go { color: #7cc0ff; }
+  .card.duongg .go { color: #ffb27c; }
+  .tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1.1rem; }
+  .tag {
+    font-size: .72rem; color: var(--muted);
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.08);
+    padding: .2rem .6rem; border-radius: 999px;
+  }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .8rem; text-align: center; }
+</style>
+</head>
+<body>
+  <span class="badge">Blog Collection</span>
+  <h1>Bộ sưu tập Blog</h1>
+  <p class="sub">Hai blog kiến thức được biên soạn có hệ thống từ nội dung TikTok. Chọn một blog để bắt đầu.</p>
+
+  <div class="grid">
+    <a class="card ielts" href="./ielts/">
+      <div class="ico">📚</div>
+      <div class="tags"><span class="tag">IELTS</span><span class="tag">8 chủ đề</span><span class="tag">43 bài</span></div>
+      <h2>Luyện thi IELTS</h2>
+      <div class="by">Tác giả: <b>cô Hiền</b> · @cohienielts</div>
+      <p>Cẩm nang IELTS theo chủ đề: Speaking, Writing, Reading, thang điểm, tâm lý phòng thi và bóc "myth".</p>
+      <span class="go">Vào blog →</span>
+    </a>
+
+    <a class="card duongg" href="./phat-trien-ban-than/">
+      <div class="ico">⚡</div>
+      <div class="tags"><span class="tag">Phát triển bản thân</span><span class="tag">5 chủ đề</span><span class="tag">21 bài</span></div>
+      <h2>Phát triển bản thân</h2>
+      <div class="by">Tác giả: <b>Duongg</b> · @dreamerd_</div>
+      <p>Tư duy, sự tự tin, kỷ luật, quan hệ và thể chất — những bài học ngắn gọn, thực chiến.</p>
+      <span class="go">Vào blog →</span>
+    </a>
+  </div>
+
+  <footer>Nội dung tổng hợp phi thương mại cho mục đích học tập · dẫn nguồn video gốc trong từng bài.</footer>
+</body>
+</html>

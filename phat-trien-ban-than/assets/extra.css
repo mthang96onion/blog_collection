@@ -1,0 +1,217 @@
+/* ============================================================
+   Tư duy cùng Duongg — custom theme (Amber / hổ phách)
+   ============================================================ */
+
+:root {
+  --dg-amber: #c2410c;       /* cam đậm — nền solid, header bảng */
+  --dg-amber-2: #ea580c;
+  --dg-accent: #f59e0b;      /* hổ phách sáng — accent, icon */
+  --dg-grad: linear-gradient(120deg, #9a3412 0%, #ea580c 52%, #f59e0b 100%);
+
+  --md-primary-fg-color: #b4460b;
+  --md-primary-fg-color--light: #d4610f;
+  --md-primary-fg-color--dark: #8a3208;
+  --md-accent-fg-color: #ea580c;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #c2410c;
+  --md-accent-fg-color: #f59e0b;
+}
+
+.md-typeset {
+  font-size: .82rem;
+  line-height: 1.78;
+}
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 700;
+  letter-spacing: -.01em;
+}
+.md-typeset h2 {
+  margin-top: 2.4em;
+  padding-bottom: .25em;
+  border-bottom: 2px solid var(--md-default-fg-color--lightest);
+}
+
+.md-header,
+.md-tabs {
+  background: var(--dg-grad);
+}
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background: linear-gradient(120deg, #6b230a 0%, #a83c0d 52%, #c76a0d 100%);
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.dg-hero {
+  margin: -1.2rem -.8rem 2.2rem;
+  padding: 3.2rem 1.6rem 3.4rem;
+  text-align: center;
+  color: #fff;
+  background: var(--dg-grad);
+  border-radius: 0 0 28px 28px;
+  position: relative;
+  overflow: hidden;
+}
+.dg-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 18% 22%, rgba(255,255,255,.20), transparent 45%),
+              radial-gradient(circle at 82% 78%, rgba(0,0,0,.12), transparent 42%);
+  pointer-events: none;
+}
+.dg-hero h1 {
+  color: #fff !important;
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin: 0 0 .5rem;
+  border: 0;
+}
+.dg-hero p {
+  font-size: .95rem;
+  max-width: 640px;
+  margin: .3rem auto;
+  opacity: .96;
+}
+.dg-hero .dg-badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: .3rem .9rem;
+  border-radius: 999px;
+  background: rgba(0,0,0,.18);
+  backdrop-filter: blur(4px);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.dg-hero .dg-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  margin-top: 1.4rem;
+  padding: .7rem 1.6rem;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--dg-amber) !important;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(0,0,0,.22);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.dg-hero .dg-cta:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0,0,0,.3);
+}
+
+.dg-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.6rem;
+  margin: 1.6rem auto 0;
+}
+.dg-stats .dg-stat { text-align: center; }
+.dg-stats .dg-stat b {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.dg-stats .dg-stat span {
+  font-size: .72rem;
+  opacity: .9;
+}
+
+/* ============================================================
+   Cards
+   ============================================================ */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 16px;
+  padding: 1.3rem 1.2rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 2px 10px rgba(0,0,0,.04);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.md-typeset .grid.cards > ul > li::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: var(--dg-grad);
+  opacity: .95;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 34px rgba(194,65,12,.20);
+  border-color: transparent;
+}
+.md-typeset .grid.cards > ul > li > hr {
+  margin: .6rem 0;
+  border: 0;
+  border-top: 1px dashed var(--md-default-fg-color--lightest);
+}
+.md-typeset .grid.cards .twemoji,
+.md-typeset .grid.cards .lg { font-size: 1.9rem; }
+.md-typeset .grid.cards .lg svg,
+.md-typeset .grid.cards .twemoji svg {
+  height: 2rem;
+  width: 2rem;
+  fill: var(--dg-amber-2);
+}
+
+/* ============================================================
+   Admonition & blockquote (câu trích nổi bật)
+   ============================================================ */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 12px;
+  border-width: 0;
+  border-left-width: 4px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.05);
+}
+.md-typeset .admonition.note { background: rgba(194,65,12,.05); }
+.md-typeset .admonition.note > .admonition-title { background: rgba(194,65,12,.14); }
+.md-typeset .admonition.quote { background: rgba(245,158,11,.06); }
+
+.md-typeset blockquote {
+  border-left: 4px solid var(--dg-accent);
+  background: rgba(245,158,11,.06);
+  border-radius: 8px;
+  padding: .4rem 1rem;
+  font-style: italic;
+}
+
+/* ============================================================
+   Bảng
+   ============================================================ */
+.md-typeset table:not([class]) {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,.05);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset table:not([class]) th {
+  background: var(--dg-amber);
+  color: #fff;
+  font-weight: 600;
+}
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background: var(--md-default-fg-color--lightest);
+}
+
+.md-typeset hr + p em { color: var(--md-default-fg-color--light); }
+.md-typeset .headerlink { color: var(--dg-accent); }
+
+@media (max-width: 44.9em) {
+  .dg-hero { padding: 2.4rem 1rem; }
+  .dg-hero h1 { font-size: 1.6rem; }
+}
