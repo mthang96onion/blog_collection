@@ -87,12 +87,14 @@
   }
   .card.ielts::before { background: linear-gradient(90deg, #0d1b3e, #235a8f, #4f9dde); }
   .card.duongg::before { background: linear-gradient(90deg, #9a3412, #ea580c, #f59e0b); }
+  .card.marketing::before { background: linear-gradient(90deg, #0b4f4a, #0d9488, #2dd4bf); }
   .card:hover {
     transform: translateY(-8px);
     border-color: rgba(255,255,255,.18);
   }
   .card.ielts:hover { box-shadow: 0 22px 48px rgba(35,90,143,.35); }
   .card.duongg:hover { box-shadow: 0 22px 48px rgba(234,88,12,.32); }
+  .card.marketing:hover { box-shadow: 0 22px 48px rgba(13,148,136,.32); }
   .ico {
     width: 54px; height: 54px;
     border-radius: 14px;
@@ -102,6 +104,7 @@
   }
   .card.ielts .ico { background: rgba(79,157,222,.16); }
   .card.duongg .ico { background: rgba(245,158,11,.16); }
+  .card.marketing .ico { background: rgba(45,212,191,.16); }
   .card h2 { font-size: 1.35rem; font-weight: 700; margin-bottom: .25rem; }
   .card .by { color: var(--muted); font-size: .82rem; margin-bottom: .8rem; }
   .card .by b { color: var(--text); font-weight: 600; }
@@ -112,6 +115,7 @@
   }
   .card.ielts .go { color: #7cc0ff; }
   .card.duongg .go { color: #ffb27c; }
+  .card.marketing .go { color: #5eead4; }
   .tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1.1rem; }
   .tag {
     font-size: .72rem; color: var(--muted);
@@ -143,6 +147,15 @@
       <h2>Phát triển bản thân</h2>
       <div class="by">Tác giả: <b>Duongg</b> · @dreamerd_</div>
       <p>Tư duy, sự tự tin, kỷ luật, quan hệ và thể chất — những bài học ngắn gọn, thực chiến.</p>
+      <span class="go">Vào blog →</span>
+    </a>
+
+    <a class="card marketing" href="./marketing/">
+      <div class="ico">🎯</div>
+      <div class="tags"><span class="tag">Marketing</span><span class="tag">6 chủ đề</span><span class="tag">37 bài</span></div>
+      <h2>Marketing tinh gọn</h2>
+      <div class="by">Tác giả: <b>Quanh</b> · @quanhlammkttinhgon</div>
+      <p>Tư duy nền tảng, khách hàng, chiến lược, 4P/7P, branding và nghề — cho SME & marketer.</p>
       <span class="go">Vào blog →</span>
     </a>
   </div>

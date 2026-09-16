@@ -1,0 +1,217 @@
+/* ============================================================
+   Marketing tinh gọn · Quanh — custom theme (Teal)
+   ============================================================ */
+
+:root {
+  --mk-teal: #0f766e;
+  --mk-teal-2: #0d9488;
+  --mk-accent: #14b8a6;
+  --mk-grad: linear-gradient(120deg, #0b4f4a 0%, #0d9488 55%, #2dd4bf 100%);
+
+  --md-primary-fg-color: #0f766e;
+  --md-primary-fg-color--light: #159c91;
+  --md-primary-fg-color--dark: #0b544e;
+  --md-accent-fg-color: #0d9488;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0d9488;
+  --md-accent-fg-color: #2dd4bf;
+}
+
+.md-typeset {
+  font-size: .82rem;
+  line-height: 1.78;
+}
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 700;
+  letter-spacing: -.01em;
+}
+.md-typeset h2 {
+  margin-top: 2.4em;
+  padding-bottom: .25em;
+  border-bottom: 2px solid var(--md-default-fg-color--lightest);
+}
+
+.md-header,
+.md-tabs {
+  background: var(--mk-grad);
+}
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background: linear-gradient(120deg, #073b37 0%, #0a6b62 55%, #12938a 100%);
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.mk-hero {
+  margin: -1.2rem -.8rem 2.2rem;
+  padding: 3.2rem 1.6rem 3.4rem;
+  text-align: center;
+  color: #fff;
+  background: var(--mk-grad);
+  border-radius: 0 0 28px 28px;
+  position: relative;
+  overflow: hidden;
+}
+.mk-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 18% 22%, rgba(255,255,255,.18), transparent 45%),
+              radial-gradient(circle at 84% 78%, rgba(0,0,0,.10), transparent 42%);
+  pointer-events: none;
+}
+.mk-hero h1 {
+  color: #fff !important;
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin: 0 0 .5rem;
+  border: 0;
+}
+.mk-hero p {
+  font-size: .95rem;
+  max-width: 640px;
+  margin: .3rem auto;
+  opacity: .96;
+}
+.mk-hero .mk-badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: .3rem .9rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.18);
+  backdrop-filter: blur(4px);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.mk-hero .mk-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  margin-top: 1.4rem;
+  padding: .7rem 1.6rem;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--mk-teal) !important;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(0,0,0,.2);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.mk-hero .mk-cta:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0,0,0,.28);
+}
+
+.mk-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.6rem;
+  margin: 1.6rem auto 0;
+}
+.mk-stats .mk-stat { text-align: center; }
+.mk-stats .mk-stat b {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.mk-stats .mk-stat span {
+  font-size: .72rem;
+  opacity: .9;
+}
+
+/* ============================================================
+   Cards
+   ============================================================ */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 16px;
+  padding: 1.3rem 1.2rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 2px 10px rgba(0,0,0,.04);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.md-typeset .grid.cards > ul > li::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: var(--mk-grad);
+  opacity: .95;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 34px rgba(15,118,110,.18);
+  border-color: transparent;
+}
+.md-typeset .grid.cards > ul > li > hr {
+  margin: .6rem 0;
+  border: 0;
+  border-top: 1px dashed var(--md-default-fg-color--lightest);
+}
+.md-typeset .grid.cards .twemoji,
+.md-typeset .grid.cards .lg { font-size: 1.9rem; }
+.md-typeset .grid.cards .lg svg,
+.md-typeset .grid.cards .twemoji svg {
+  height: 2rem;
+  width: 2rem;
+  fill: var(--mk-teal-2);
+}
+
+/* ============================================================
+   Admonition & blockquote
+   ============================================================ */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 12px;
+  border-width: 0;
+  border-left-width: 4px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.05);
+}
+.md-typeset .admonition.note { background: rgba(15,118,110,.05); }
+.md-typeset .admonition.note > .admonition-title { background: rgba(15,118,110,.14); }
+.md-typeset .admonition.quote { background: rgba(20,184,166,.06); }
+
+.md-typeset blockquote {
+  border-left: 4px solid var(--mk-accent);
+  background: rgba(20,184,166,.06);
+  border-radius: 8px;
+  padding: .4rem 1rem;
+  font-style: italic;
+}
+
+/* ============================================================
+   Bảng
+   ============================================================ */
+.md-typeset table:not([class]) {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,.05);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset table:not([class]) th {
+  background: var(--mk-teal);
+  color: #fff;
+  font-weight: 600;
+}
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background: var(--md-default-fg-color--lightest);
+}
+
+.md-typeset hr + p em { color: var(--md-default-fg-color--light); }
+.md-typeset .headerlink { color: var(--mk-accent); }
+
+@media (max-width: 44.9em) {
+  .mk-hero { padding: 2.4rem 1rem; }
+  .mk-hero h1 { font-size: 1.6rem; }
+}

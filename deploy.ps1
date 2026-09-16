@@ -3,13 +3,15 @@
 #
 # Kết quả:
 #   https://mthang96onion.github.io/blog_collection/           (trang cổng)
-#   https://mthang96onion.github.io/blog_collection/ielts/     (blog IELTS)
-#   https://mthang96onion.github.io/blog_collection/dreamerd/  (blog Duongg)
+#   https://mthang96onion.github.io/blog_collection/ielts/            (blog IELTS)
+#   https://mthang96onion.github.io/blog_collection/phat-trien-ban-than/ (blog Duongg)
+#   https://mthang96onion.github.io/blog_collection/marketing/        (blog Marketing)
 
 $ErrorActionPreference = 'Stop'
 $root   = $PSScriptRoot
 $ielts  = 'D:\Thang\TikTok Transcripts\cohienielts-blog'
 $duongg = 'D:\Thang\TikTok Transcripts\dreamerd-blog'
+$mkt    = 'D:\Thang\TikTok Transcripts\marketing-blog'
 $key    = 'D:/Thang/.ssh/id_mthang96onion_acct'
 $repo   = 'git@github.com:mthang96onion/blog_collection.git'
 $sshCmd = "C:/Windows/System32/OpenSSH/ssh.exe -i $key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o HostName=ssh.github.com -o Port=443"
@@ -17,13 +19,16 @@ $sshCmd = "C:/Windows/System32/OpenSSH/ssh.exe -i $key -o IdentitiesOnly=yes -o 
 Write-Host '== 1/3 Build blog IELTS -> ielts/ ==' -ForegroundColor Cyan
 python -m mkdocs build -f "$ielts\mkdocs.yml" -d "$root\ielts" --strict
 
-Write-Host '== 2/3 Build blog Duongg -> phat-trien-ban-than/ ==' -ForegroundColor Cyan
+Write-Host '== 2/4 Build blog Duongg -> phat-trien-ban-than/ ==' -ForegroundColor Cyan
 python -m mkdocs build -f "$duongg\mkdocs.yml" -d "$root\phat-trien-ban-than" --strict
+
+Write-Host '== 3/4 Build blog Marketing -> marketing/ ==' -ForegroundColor Cyan
+python -m mkdocs build -f "$mkt\mkdocs.yml" -d "$root\marketing" --strict
 
 $nojekyll = Join-Path $root '.nojekyll'
 if (-not (Test-Path $nojekyll)) { New-Item -ItemType File -Path $nojekyll | Out-Null }
 
-Write-Host '== 3/3 Day len GitHub Pages ==' -ForegroundColor Cyan
+Write-Host '== 4/4 Day len GitHub Pages ==' -ForegroundColor Cyan
 Set-Location $root
 if (-not (Test-Path (Join-Path $root '.git'))) {
   git init -b main -q
