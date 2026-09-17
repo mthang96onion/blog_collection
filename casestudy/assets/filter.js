@@ -6,9 +6,13 @@
     var root = document.getElementById('cs-app');
     if (!root) return;
 
-    var base = document.querySelector('base');
-    // casestudies.json nằm cùng site, dưới assets/. Trang thu-vien ở gốc site.
-    var url = (base ? base.getAttribute('href') : '') + 'assets/casestudies.json';
+    // Lấy URL tuyệt đối của chính script này (đã được MkDocs phân giải đúng prefix ../),
+    // rồi đổi tên file -> casestudies.json. Robust bất kể trang nằm ở độ sâu nào.
+    var ref = document.querySelector('script[src$="assets/filter.js"]')
+           || document.querySelector('link[href$="assets/extra.css"]');
+    var href = ref ? (ref.src || ref.href) : '';
+    var url = href ? href.replace(/filter\.js(\?.*)?$|extra\.css(\?.*)?$/, 'casestudies.json')
+                   : 'assets/casestudies.json';
 
     fetch(url).then(function (r) { return r.json(); }).then(function (data) { render(root, data); })
       .catch(function () { root.innerHTML = '<p class="cs-empty">Không tải được dữ liệu case study.</p>'; });
