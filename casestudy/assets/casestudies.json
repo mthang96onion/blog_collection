@@ -2,115 +2,78 @@
   {
     "id": "7672425700896296212",
     "title": "Mike's Hot Honey: tạo ra thị trường tỷ đô từ con số 0",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
+    "stage": "khoi-su",
+    "stage_title": "Khởi sự & Ý tưởng",
     "nganh": "Gia vị & nước sốt",
     "brands": [
       "Mike's Hot Honey"
     ],
-    "frameworks": [
-      "Category creation"
+    "theory": [
+      "Category Design (Play Bigger)"
+    ],
+    "tactics": [
+      "Ủ ý tưởng nhiều năm",
+      "Truyền miệng"
     ],
     "author": "@petertheconsumer",
     "url": "../category-creation/mikes-hot-honey/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7672425700896296212"
   },
   {
-    "id": "7643586819275394325",
-    "title": "Banagua: cược vào \"nước chuối\" như VitaCoco từng làm với nước dừa",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
-    "nganh": "Đồ uống",
-    "brands": [
-      "Banagua"
-    ],
-    "frameworks": [
-      "First-mover advantage",
-      "Category creation"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../category-creation/banagua-nuoc-chuoi/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7643586819275394325"
-  },
-  {
     "id": "7637532684709252372",
     "title": "Mosh: thanh protein đầu tiên cho sức khỏe não bộ",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
+    "stage": "khoi-su",
+    "stage_title": "Khởi sự & Ý tưởng",
     "nganh": "Thực phẩm bổ sung & Wellness",
     "brands": [
       "Mosh"
     ],
-    "frameworks": [
-      "Category creation",
-      "Mission-driven"
+    "theory": [
+      "Category Design (Play Bigger)"
+    ],
+    "tactics": [
+      "Marketing gắn sứ mệnh",
+      "Credibility qua Shark Tank"
     ],
     "author": "@petertheconsumer",
     "url": "../category-creation/mosh-protein-nao/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7637532684709252372"
   },
   {
-    "id": "7635672469109624085",
-    "title": "Fishwife: xây thương hiệu trước, tìm sản phẩm sau",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
-    "nganh": "Snack",
-    "brands": [
-      "Fishwife"
-    ],
-    "frameworks": [
-      "Brand-before-product",
-      "Design-centricity"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../category-creation/fishwife-ca-hop/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7635672469109624085"
-  },
-  {
     "id": "7635334471616679188",
     "title": "Lucille: thị trường dinh dưỡng người già gần như bỏ trống",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
+    "stage": "khoi-su",
+    "stage_title": "Khởi sự & Ý tưởng",
     "nganh": "Thực phẩm bổ sung & Wellness",
     "brands": [
       "Lucille"
     ],
-    "frameworks": [
-      "Category creation",
-      "Underpenetrated market"
+    "theory": [
+      "Category Design (Play Bigger)"
+    ],
+    "tactics": [
+      "Nhắm thị trường bỏ trống",
+      "Thiết kế cho người dùng đặc thù"
     ],
     "author": "@petertheconsumer",
     "url": "../category-creation/lucille-dinh-duong-nguoi-gia/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7635334471616679188"
   },
   {
-    "id": "7617900375361850644",
-    "title": "Case: trà trái cây đóng lon, một ngành hàng chưa ai làm",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
-    "nganh": "Đồ uống",
-    "brands": [
-      "Case"
-    ],
-    "frameworks": [
-      "Category creation",
-      "White space"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../category-creation/case-fruit-tea/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7617900375361850644"
-  },
-  {
     "id": "7617291909395959060",
     "title": "Space Milk: protein từ men — lựa chọn thứ ba ngoài whey và thực vật",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
+    "stage": "khoi-su",
+    "stage_title": "Khởi sự & Ý tưởng",
     "nganh": "Thực phẩm bổ sung & Wellness",
     "brands": [
       "Space Milk"
     ],
-    "frameworks": [
-      "Category creation"
+    "theory": [
+      "Category Design (Play Bigger)"
+    ],
+    "tactics": [
+      "Đổi mới nguyên liệu",
+      "Minh bạch kiểm định"
     ],
     "author": "@petertheconsumer",
     "url": "../category-creation/space-milk-protein-men/",
@@ -119,15 +82,18 @@
   {
     "id": "7616428964814359829",
     "title": "Umi: biến rong biển thành đồ uống",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
+    "stage": "khoi-su",
+    "stage_title": "Khởi sự & Ý tưởng",
     "nganh": "Đồ uống",
     "brands": [
       "Umi"
     ],
-    "frameworks": [
-      "Category creation",
-      "Education-led growth"
+    "theory": [
+      "Category Design (Play Bigger)",
+      "Diffusion of Innovations (Rogers)"
+    ],
+    "tactics": [
+      "Tăng trưởng qua giáo dục thị trường"
     ],
     "author": "@petertheconsumer",
     "url": "../category-creation/umi-nuoc-rong-bien/",
@@ -136,32 +102,98 @@
   {
     "id": "7602806460145224980",
     "title": "Milaways: kẹo cao su không nhựa và bí mật ngành gum",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
+    "stage": "khoi-su",
+    "stage_title": "Khởi sự & Ý tưởng",
     "nganh": "Snack",
     "brands": [
       "Milaways"
     ],
-    "frameworks": [
-      "Category creation",
-      "Ingredient transparency"
+    "theory": [
+      "Category Design (Play Bigger)"
+    ],
+    "tactics": [
+      "Minh bạch nguyên liệu"
     ],
     "author": "@petertheconsumer",
     "url": "../category-creation/milaways-keo-cao-su/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7602806460145224980"
   },
   {
+    "id": "7643586819275394325",
+    "title": "Banagua: cược vào \"nước chuối\" như VitaCoco từng làm với nước dừa",
+    "stage": "khoi-su",
+    "stage_title": "Khởi sự & Ý tưởng",
+    "nganh": "Đồ uống",
+    "brands": [
+      "Banagua"
+    ],
+    "theory": [
+      "Diffusion of Innovations (Rogers)"
+    ],
+    "tactics": [
+      "Định vị đơn giản",
+      "Upcycling phụ phẩm"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../category-creation/banagua-nuoc-chuoi/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7643586819275394325"
+  },
+  {
+    "id": "7617900375361850644",
+    "title": "Case: trà trái cây đóng lon, một ngành hàng chưa ai làm",
+    "stage": "khoi-su",
+    "stage_title": "Khởi sự & Ý tưởng",
+    "nganh": "Đồ uống",
+    "brands": [
+      "Case"
+    ],
+    "theory": [
+      "Category Design (Play Bigger)"
+    ],
+    "tactics": [
+      "Kể chuyện xuất xứ"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../category-creation/case-fruit-tea/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7617900375361850644"
+  },
+  {
+    "id": "7635672469109624085",
+    "title": "Fishwife: xây thương hiệu trước, tìm sản phẩm sau",
+    "stage": "khoi-su",
+    "stage_title": "Khởi sự & Ý tưởng",
+    "nganh": "Snack",
+    "brands": [
+      "Fishwife"
+    ],
+    "theory": [
+      "Category Design (Play Bigger)",
+      "Contagious/STEPPS (Berger)"
+    ],
+    "tactics": [
+      "Xây brand trước sản phẩm",
+      "Thiết kế dẫn dắt",
+      "Founder tự chạy social"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../category-creation/fishwife-ca-hop/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7635672469109624085"
+  },
+  {
     "id": "7600887736148577556",
     "title": "Biro: bia không cồn cưỡi lên xu hướng xã hội",
-    "mang": "Sinh ngành mới",
-    "mang_title": "Sinh ra ngành hàng mới",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Đồ uống",
     "brands": [
       "Biro"
     ],
-    "frameworks": [
-      "Societal tailwind",
-      "Celebrity branding"
+    "theory": [
+      "Jobs-to-be-Done (Christensen)"
+    ],
+    "tactics": [
+      "Cưỡi trend xã hội",
+      "Celebrity endorsement"
     ],
     "author": "@petertheconsumer",
     "url": "../category-creation/biro-bia-khong-con/",
@@ -170,49 +202,38 @@
   {
     "id": "7672426186269674772",
     "title": "Butter Girl: đánh bơ bằng tay chống lại ngành công nghiệp hóa",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Snack",
     "brands": [
       "Butter Girl"
     ],
-    "frameworks": [
-      "Counter-positioning",
-      "Content-as-distribution"
+    "theory": [
+      "Counter-Positioning (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Sản xuất thủ công như định vị",
+      "Content dẫn dắt"
     ],
     "author": "@petertheconsumer",
     "url": "../disrupt/butter-girl/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7672426186269674772"
   },
   {
-    "id": "7648746912769690901",
-    "title": "Grillo's Pickles: coi dưa muối như thực phẩm tươi",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Grillo's"
-    ],
-    "frameworks": [
-      "Counter-positioning",
-      "Brand moat"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../disrupt/grillos-pickles/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7648746912769690901"
-  },
-  {
     "id": "7639767295908187412",
     "title": "Nguyen Coffee: lấy tính chính danh văn hóa làm con hào",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Đồ uống",
     "brands": [
       "Nguyen Coffee Supply"
     ],
-    "frameworks": [
-      "Cultural authenticity",
-      "Counter-positioning"
+    "theory": [
+      "Cultural Branding (Holt)",
+      "Counter-Positioning (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Chính danh văn hóa"
     ],
     "author": "@petertheconsumer",
     "url": "../disrupt/nguyen-coffee/",
@@ -221,15 +242,18 @@
   {
     "id": "7638645784782851349",
     "title": "Ayoh: thêm một chiều mới cho mayo",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Gia vị & nước sốt",
     "brands": [
       "Ayoh"
     ],
-    "frameworks": [
-      "Add-a-dimension",
-      "Founder audience"
+    "theory": [
+      "Positioning (Ries & Trout)"
+    ],
+    "tactics": [
+      "Thêm chiều sản phẩm",
+      "Founder lên hình"
     ],
     "author": "@petertheconsumer",
     "url": "../disrupt/ayoh-mayo/",
@@ -238,15 +262,16 @@
   {
     "id": "7634695925406977301",
     "title": "OhMe Foods: startup snack bootstrapped ở Canada",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Snack",
     "brands": [
       "OhMe"
     ],
-    "frameworks": [
+    "theory": [],
+    "tactics": [
       "Bootstrapping",
-      "Farmers-market GTM"
+      "GTM chợ nông sản"
     ],
     "author": "@petertheconsumer",
     "url": "../disrupt/ohme-foods/",
@@ -255,15 +280,18 @@
   {
     "id": "7624754884629335316",
     "title": "Yo: pizza đông lạnh với vỏ bánh Greek yogurt",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Đồ đông lạnh",
     "brands": [
       "Yo"
     ],
-    "frameworks": [
-      "Upgrade-not-substitute",
-      "Viral recipe"
+    "theory": [
+      "Positioning (Ries & Trout)"
+    ],
+    "tactics": [
+      "Nâng cấp thay vì thay thế",
+      "Cưỡi trend công thức viral"
     ],
     "author": "@petertheconsumer",
     "url": "../disrupt/yo-pizza-greek-yogurt/",
@@ -272,14 +300,16 @@
   {
     "id": "7623433558002126100",
     "title": "Laoban: sủi cảo chuẩn Michelin trong túi đông lạnh",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Đồ đông lạnh",
     "brands": [
       "Laoban"
     ],
-    "frameworks": [
-      "Credibility signaling",
+    "theory": [
+      "Signaling (Spence)"
+    ],
+    "tactics": [
       "Pandemic pivot"
     ],
     "author": "@petertheconsumer",
@@ -287,52 +317,18 @@
     "video": "https://www.tiktok.com/@petertheconsumer/video/7623433558002126100"
   },
   {
-    "id": "7619379392648678676",
-    "title": "Habiza: kiểm soát chuỗi cung ứng để làm chủ ngành hàng",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Habiza"
-    ],
-    "frameworks": [
-      "Supply-chain moat",
-      "Category control"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../disrupt/habiza-hummus/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7619379392648678676"
-  },
-  {
-    "id": "7614237989404757268",
-    "title": "Dropout Companies: làm lại những món tuổi thơ với thành phần tốt hơn",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
-    "nganh": "Snack",
-    "brands": [
-      "Dropout",
-      "Bronco Bagels"
-    ],
-    "frameworks": [
-      "Brand-house",
-      "Better-for-you"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../disrupt/dropout-companies/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7614237989404757268"
-  },
-  {
     "id": "7613620837983390997",
     "title": "Sauz: sốt pasta thiết kế cho Gen Z",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Gia vị & nước sốt",
     "brands": [
       "Sauz"
     ],
-    "frameworks": [
-      "Design-led",
-      "Retail-before-product"
+    "theory": [],
+    "tactics": [
+      "Thiết kế dẫn dắt",
+      "Bán lẻ trước khi có sản phẩm"
     ],
     "author": "@petertheconsumer",
     "url": "../disrupt/sauz-sot-pasta/",
@@ -341,15 +337,16 @@
   {
     "id": "7612890750178594068",
     "title": "Moo'd Up: hồi sinh sữa socola tưởng đã chết",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Đồ uống",
     "brands": [
       "Moo'd Up"
     ],
-    "frameworks": [
-      "Reviving dead category",
-      "Audience surprise"
+    "theory": [],
+    "tactics": [
+      "Hồi sinh ngành hàng",
+      "Mở rộng tệp bất ngờ"
     ],
     "author": "@petertheconsumer",
     "url": "../disrupt/mood-up-sua-socola/",
@@ -358,468 +355,37 @@
   {
     "id": "7611234911755832597",
     "title": "Maazah: đưa sốt Trung Đông ra khỏi kệ \"hàng quốc tế\"",
-    "mang": "Lật đổ",
-    "mang_title": "Lật đổ ngành hàng cũ",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Gia vị & nước sốt",
     "brands": [
       "Maazah"
     ],
-    "frameworks": [
-      "Pitch-competition GTM",
-      "Aisle repositioning"
+    "theory": [
+      "Positioning (Ries & Trout)"
+    ],
+    "tactics": [
+      "GTM qua thi đấu pitch",
+      "Đổi kệ trưng bày"
     ],
     "author": "@petertheconsumer",
     "url": "../disrupt/maazah-sot-trung-dong/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7611234911755832597"
   },
   {
-    "id": "7640921176092462357",
-    "title": "White Rabbit: thương hiệu kẹo 80 năm sống nhờ hoài niệm",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Bánh kẹo",
-    "brands": [
-      "White Rabbit"
-    ],
-    "frameworks": [
-      "Nostalgia moat",
-      "Licensing"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/white-rabbit-keo/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7640921176092462357"
-  },
-  {
-    "id": "7635307749374577941",
-    "title": "Bob's Red Mill: từ chối bán, trao công ty cho nhân viên",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Khác",
-    "brands": [
-      "Bob's Red Mill"
-    ],
-    "frameworks": [
-      "Mission-driven",
-      "Early-mover advantage"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/bobs-red-mill/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7635307749374577941"
-  },
-  {
-    "id": "7621933277015739669",
-    "title": "Arctic Glacier: đế chế nước đá dựng bằng thâu tóm",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Khác",
-    "brands": [
-      "Arctic Glacier"
-    ],
-    "frameworks": [
-      "Distribution moat",
-      "Roll-up"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/arctic-glacier-nuoc-da/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7621933277015739669"
-  },
-  {
-    "id": "7618237915117751573",
-    "title": "Kinder's: dùng Costco làm mũi nhọn bán lẻ",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Kinder's"
-    ],
-    "frameworks": [
-      "Retail wedge",
-      "PE playbook"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/kinders-gia-vi/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7618237915117751573"
-  },
-  {
-    "id": "7616596969162575125",
-    "title": "Tajín: khi sản phẩm chính là nội dung",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Tajín"
-    ],
-    "frameworks": [
-      "Product-is-content",
-      "Use-case expansion"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/tajin/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7616596969162575125"
-  },
-  {
-    "id": "7614981811919211797",
-    "title": "Chobani: mua nhà máy bỏ hoang, xây đế chế 20 tỷ đô",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Sữa & sữa chua",
-    "brands": [
-      "Chobani"
-    ],
-    "frameworks": [
-      "Quality + distribution",
-      "Sampling"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/chobani/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7614981811919211797"
-  },
-  {
-    "id": "7613819268572138772",
-    "title": "Bonne Maman: chiến lược thương hiệu là \"không có chiến lược\"",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Bonne Maman"
-    ],
-    "frameworks": [
-      "Design-as-strategy",
-      "Zero-ad growth"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/bonne-maman/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7613819268572138772"
-  },
-  {
-    "id": "7611605312281300244",
-    "title": "Haidilao: mở rộng con người, không mở rộng nhà hàng",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Chuỗi F&B",
-    "brands": [
-      "Haidilao"
-    ],
-    "frameworks": [
-      "Service differentiation",
-      "People-system"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/haidilao/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7611605312281300244"
-  },
-  {
-    "id": "7610468049061154068",
-    "title": "Shin Ramyeon: tạo ngành mì cay và sống sót qua khủng hoảng",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Đồ đông lạnh",
-    "brands": [
-      "Shin Ramyeon"
-    ],
-    "frameworks": [
-      "Category creation",
-      "Local manufacturing"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/shin-ramyeon-nongshim/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7610468049061154068"
-  },
-  {
-    "id": "7609721993931345173",
-    "title": "Cholula: khi private equity \"mở khóa\" thay vì phá hỏng",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Cholula",
-      "McCormick"
-    ],
-    "frameworks": [
-      "PE playbook",
-      "Distribution unlock"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/cholula/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7609721993931345173"
-  },
-  {
-    "id": "7608999351536323860",
-    "title": "Yakult: đội quân bán hàng và hào quang sức khỏe",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Đồ uống",
-    "brands": [
-      "Yakult"
-    ],
-    "frameworks": [
-      "Direct-sales force",
-      "Brand moat"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/yakult/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7608999351536323860"
-  },
-  {
-    "id": "7607114619802389781",
-    "title": "Arizona: giữ giá 0,99 đô suốt 33 năm",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Đồ uống",
-    "brands": [
-      "Arizona"
-    ],
-    "frameworks": [
-      "Price-trust",
-      "Cost engineering"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/arizona-iced-tea/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7607114619802389781"
-  },
-  {
-    "id": "7606041621699939605",
-    "title": "Lão Can Ma: đế chế dầu ớt không vay, không IPO",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Lao Gan Ma"
-    ],
-    "frameworks": [
-      "Word-of-mouth",
-      "No outside capital"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/lao-gan-ma-dau-ot/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7606041621699939605"
-  },
-  {
-    "id": "7604545991550749973",
-    "title": "Sriracha (P1): tương ớt trở thành cả một ngành hàng",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Huy Fong Sriracha"
-    ],
-    "frameworks": [
-      "Word-of-mouth",
-      "Became-the-category"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/sriracha-p1/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7604545991550749973"
-  },
-  {
-    "id": "7605308200853769493",
-    "title": "Sriracha (P2): mất nhà cung ứng, mất luôn ngôi vương",
-    "mang": "Di sản",
-    "mang_title": "Thương hiệu di sản",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Huy Fong Sriracha"
-    ],
-    "frameworks": [
-      "Supply-chain moat"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../heritage/sriracha-p2-chuoi-cung-ung/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7605308200853769493"
-  },
-  {
-    "id": "7683558913802898708",
-    "title": "Barilla mua Goodles: chiến lược thương hiệu vệ tinh kiểu Rolex/Tudor",
-    "mang": "Thương vụ",
-    "mang_title": "Thương vụ & Gọi vốn",
-    "nganh": "Đồ đông lạnh",
-    "brands": [
-      "Barilla",
-      "Goodles"
-    ],
-    "frameworks": [
-      "Flanker brand",
-      "M&A"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../deals/barilla-goodles/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7683558913802898708"
-  },
-  {
-    "id": "7666904591887437077",
-    "title": "Smash Foods gọi 18 triệu đô từ quỹ của LVMH",
-    "mang": "Thương vụ",
-    "mang_title": "Thương vụ & Gọi vốn",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Eat Smash Foods",
-      "L Catterton"
-    ],
-    "frameworks": [
-      "Platform expansion",
-      "M&A"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../deals/smash-foods-l-catterton/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7666904591887437077"
-  },
-  {
-    "id": "7664244972803099925",
-    "title": "Deal flow: Final Boss, Fave, Buffs",
-    "mang": "Thương vụ",
-    "mang_title": "Thương vụ & Gọi vốn",
-    "nganh": "Snack",
-    "brands": [
-      "Final Boss Sour",
-      "Fave",
-      "Buffs"
-    ],
-    "frameworks": [
-      "Content-driven demand",
-      "Fundraise"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../deals/deal-flow-final-boss-fave-buffs/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7664244972803099925"
-  },
-  {
-    "id": "7661399126956936468",
-    "title": "Deal flow: Reformed, Apothékary, Frozen One",
-    "mang": "Thương vụ",
-    "mang_title": "Thương vụ & Gọi vốn",
-    "nganh": "Đồ uống",
-    "brands": [
-      "Reformed",
-      "Apothékary",
-      "Frozen One"
-    ],
-    "frameworks": [
-      "TikTok Shop distribution",
-      "Subscription"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../deals/deal-flow-reformed-apothekary/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7661399126956936468"
-  },
-  {
-    "id": "7655815411572722965",
-    "title": "Deal flow: Stars & Honey, Algae Cooking, Coconut Cult, Gleazy",
-    "mang": "Thương vụ",
-    "mang_title": "Thương vụ & Gọi vốn",
-    "nganh": "Snack",
-    "brands": [
-      "Stars & Honey",
-      "Algae Cooking Club",
-      "Coconut Cult",
-      "Gleazy"
-    ],
-    "frameworks": [
-      "Category disruption",
-      "Equipment financing"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../deals/deal-flow-stars-honey-algae/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7655815411572722965"
-  },
-  {
-    "id": "7615454595225062677",
-    "title": "Luckin mua Blue Bottle: cú lội ngược dòng sau bê bối gian lận",
-    "mang": "Thương vụ",
-    "mang_title": "Thương vụ & Gọi vốn",
-    "nganh": "Chuỗi F&B",
-    "brands": [
-      "Luckin",
-      "Blue Bottle"
-    ],
-    "frameworks": [
-      "M&A",
-      "Turnaround"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../deals/luckin-blue-bottle/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7615454595225062677"
-  },
-  {
-    "id": "7613067257429708052",
-    "title": "Campbell mua Rao's: liệu di sản có bị đánh mất?",
-    "mang": "Thương vụ",
-    "mang_title": "Thương vụ & Gọi vốn",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Rao's",
-      "Campbell's"
-    ],
-    "frameworks": [
-      "PE playbook",
-      "Acquisition risk"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../deals/campbell-raos/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7613067257429708052"
-  },
-  {
-    "id": "7612492478826007828",
-    "title": "Siete về tay Pepsi: cái giá của việc bán mình",
-    "mang": "Thương vụ",
-    "mang_title": "Thương vụ & Gọi vốn",
-    "nganh": "Snack",
-    "brands": [
-      "Siete",
-      "Pepsi"
-    ],
-    "frameworks": [
-      "Acquisition backlash",
-      "Authenticity loss"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../deals/siete-pepsi/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7612492478826007828"
-  },
-  {
-    "id": "7603205074298391828",
-    "title": "Bachan: giành lấy vị trí kệ hàng, bán mình 400 triệu đô",
-    "mang": "Thương vụ",
-    "mang_title": "Thương vụ & Gọi vốn",
-    "nganh": "Gia vị & nước sốt",
-    "brands": [
-      "Bachan",
-      "Marzetti"
-    ],
-    "frameworks": [
-      "Shelf strategy",
-      "M&A"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../deals/bachan-bbq/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7603205074298391828"
-  },
-  {
-    "id": "7684715635439357204",
-    "title": "Vì sao ly matcha 10 đô lại hợp lý về kinh tế",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
-    "nganh": "Đồ uống",
-    "brands": [],
-    "frameworks": [
-      "Perception pricing",
-      "Premiumization"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../principles/matcha-10-do-perception/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7684715635439357204"
-  },
-  {
     "id": "7668722931828116757",
     "title": "Nếu làm content cho Brami, tôi sẽ làm thế này",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Đồ đông lạnh",
     "brands": [
       "Brami"
     ],
-    "frameworks": [
-      "Content-as-distribution",
-      "Storytelling"
+    "theory": [],
+    "tactics": [
+      "Content là kênh phân phối",
+      "Storytelling",
+      "Founder lên hình"
     ],
     "author": "@petertheconsumer",
     "url": "../principles/content-strategy-brami/",
@@ -828,45 +394,33 @@
   {
     "id": "7652393991547391253",
     "title": "Olipop: đổi một chữ, mở khóa thị trường đại chúng",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Đồ uống",
     "brands": [
       "Olipop"
     ],
-    "frameworks": [
-      "Repositioning",
-      "Category framing"
+    "theory": [
+      "Tái định vị – Repositioning (Ries & Trout)"
+    ],
+    "tactics": [
+      "Đóng khung lại ngành hàng"
     ],
     "author": "@petertheconsumer",
     "url": "../principles/olipop-tai-dinh-vi/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7652393991547391253"
   },
   {
-    "id": "7638253083537001748",
-    "title": "Founder CPG bắt buộc phải làm content",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
-    "nganh": "Khác",
-    "brands": [],
-    "frameworks": [
-      "Content-as-distribution",
-      "Demand-before-supply"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../principles/founder-can-lam-content/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7638253083537001748"
-  },
-  {
     "id": "7621941858276494612",
     "title": "Good Girl Snacks: xây kênh phân phối trước cả sản phẩm",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Gia vị & nước sốt",
     "brands": [
       "Good Girl Snacks"
     ],
-    "frameworks": [
+    "theory": [],
+    "tactics": [
       "Distribution-first",
       "Build-in-public"
     ],
@@ -877,49 +431,37 @@
   {
     "id": "7611974943760223509",
     "title": "Sour Milk: mô hình \"giao hàng như buôn thuốc\" và build-in-public",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Sữa & sữa chua",
     "brands": [
       "Sour Milk"
     ],
-    "frameworks": [
+    "theory": [
+      "Parasocial (Horton & Wohl)"
+    ],
+    "tactics": [
       "Build-in-public",
-      "Parasocial relationship"
+      "Giao hàng trực tiếp"
     ],
     "author": "@petertheconsumer",
     "url": "../principles/sour-milk-build-in-public/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7611974943760223509"
   },
   {
-    "id": "7611710228052053268",
-    "title": "David: bán protein bar như bán đẳng cấp",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
-    "nganh": "Thực phẩm bổ sung & Wellness",
-    "brands": [
-      "David"
-    ],
-    "frameworks": [
-      "Status branding",
-      "Supply-chain moat"
-    ],
-    "author": "@petertheconsumer",
-    "url": "../principles/david-status-branding/",
-    "video": "https://www.tiktok.com/@petertheconsumer/video/7611710228052053268"
-  },
-  {
     "id": "7607870568792345877",
     "title": "Kewpie: sai lầm định vị khi vào thị trường Mỹ",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Gia vị & nước sốt",
     "brands": [
       "Kewpie"
     ],
-    "frameworks": [
-      "Positioning mistake",
-      "Authenticity"
+    "theory": [
+      "Positioning (Ries & Trout)"
+    ],
+    "tactics": [
+      "Lỗi bản địa hóa"
     ],
     "author": "@petertheconsumer",
     "url": "../principles/kewpie-loi-dinh-vi/",
@@ -928,48 +470,650 @@
   {
     "id": "7600198358690581781",
     "title": "Poppi: cộng đồng trước, quảng cáo sau",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
+    "stage": "gtm",
+    "stage_title": "Ra thị trường (GTM)",
     "nganh": "Đồ uống",
     "brands": [
       "Poppi",
       "Pepsi"
     ],
-    "frameworks": [
-      "Community-first",
-      "UGC"
+    "theory": [],
+    "tactics": [
+      "Community/UGC-led",
+      "Đóng khung lại ngành hàng"
     ],
     "author": "@petertheconsumer",
     "url": "../principles/poppi-community-first/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7600198358690581781"
   },
   {
+    "id": "7648746912769690901",
+    "title": "Grillo's Pickles: coi dưa muối như thực phẩm tươi",
+    "stage": "tang-truong",
+    "stage_title": "Tăng trưởng & Phân phối",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Grillo's"
+    ],
+    "theory": [
+      "Counter-Positioning (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Chuyển kệ (deli)",
+      "Merch & cộng đồng"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../disrupt/grillos-pickles/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7648746912769690901"
+  },
+  {
+    "id": "7619379392648678676",
+    "title": "Habiza: kiểm soát chuỗi cung ứng để làm chủ ngành hàng",
+    "stage": "tang-truong",
+    "stage_title": "Tăng trưởng & Phân phối",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Habiza"
+    ],
+    "theory": [
+      "Cornered Resource (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Kiểm soát chuỗi cung ứng"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../disrupt/habiza-hummus/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7619379392648678676"
+  },
+  {
+    "id": "7614237989404757268",
+    "title": "Dropout Companies: làm lại những món tuổi thơ với thành phần tốt hơn",
+    "stage": "tang-truong",
+    "stage_title": "Tăng trưởng & Phân phối",
+    "nganh": "Snack",
+    "brands": [
+      "Dropout",
+      "Bronco Bagels"
+    ],
+    "theory": [],
+    "tactics": [
+      "Brand house",
+      "Làm lại món tuổi thơ tốt hơn"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../disrupt/dropout-companies/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7614237989404757268"
+  },
+  {
+    "id": "7621933277015739669",
+    "title": "Arctic Glacier: đế chế nước đá dựng bằng thâu tóm",
+    "stage": "tang-truong",
+    "stage_title": "Tăng trưởng & Phân phối",
+    "nganh": "Khác",
+    "brands": [
+      "Arctic Glacier"
+    ],
+    "theory": [
+      "Scale Economies (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Roll-up thâu tóm"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/arctic-glacier-nuoc-da/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7621933277015739669"
+  },
+  {
+    "id": "7618237915117751573",
+    "title": "Kinder's: dùng Costco làm mũi nhọn bán lẻ",
+    "stage": "tang-truong",
+    "stage_title": "Tăng trưởng & Phân phối",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Kinder's"
+    ],
+    "theory": [
+      "Crossing the Chasm – beachhead (Moore)",
+      "Positioning (Ries & Trout)"
+    ],
+    "tactics": [
+      "Mũi nhọn Costco",
+      "PE distribution"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/kinders-gia-vi/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7618237915117751573"
+  },
+  {
+    "id": "7614981811919211797",
+    "title": "Chobani: mua nhà máy bỏ hoang, xây đế chế 20 tỷ đô",
+    "stage": "tang-truong",
+    "stage_title": "Tăng trưởng & Phân phối",
+    "nganh": "Sữa & sữa chua",
+    "brands": [
+      "Chobani"
+    ],
+    "theory": [
+      "Branding Power (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Phát mẫu (sampling)",
+      "Lách phí lên kệ"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/chobani/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7614981811919211797"
+  },
+  {
+    "id": "7611710228052053268",
+    "title": "David: bán protein bar như bán đẳng cấp",
+    "stage": "tang-truong",
+    "stage_title": "Tăng trưởng & Phân phối",
+    "nganh": "Thực phẩm bổ sung & Wellness",
+    "brands": [
+      "David"
+    ],
+    "theory": [
+      "Hàng Veblen – tiêu dùng phô trương (Veblen)",
+      "Cornered Resource (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Seeding qua KOL",
+      "Waitlist"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../principles/david-status-branding/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7611710228052053268"
+  },
+  {
+    "id": "7640921176092462357",
+    "title": "White Rabbit: thương hiệu kẹo 80 năm sống nhờ hoài niệm",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Bánh kẹo",
+    "brands": [
+      "White Rabbit"
+    ],
+    "theory": [
+      "Branding Power (7 Powers – Helmer)",
+      "Cultural Branding (Holt)"
+    ],
+    "tactics": [
+      "Nostalgia marketing",
+      "Licensing"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/white-rabbit-keo/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7640921176092462357"
+  },
+  {
+    "id": "7635307749374577941",
+    "title": "Bob's Red Mill: từ chối bán, trao công ty cho nhân viên",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Khác",
+    "brands": [
+      "Bob's Red Mill"
+    ],
+    "theory": [
+      "Diffusion of Innovations (Rogers)"
+    ],
+    "tactics": [
+      "Marketing gắn sứ mệnh",
+      "ESOP / People-first"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/bobs-red-mill/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7635307749374577941"
+  },
+  {
+    "id": "7616596969162575125",
+    "title": "Tajín: khi sản phẩm chính là nội dung",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Tajín"
+    ],
+    "theory": [
+      "Contagious/STEPPS (Berger)",
+      "Branding Power (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Mở rộng dịp dùng",
+      "Product-is-content"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/tajin/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7616596969162575125"
+  },
+  {
+    "id": "7613819268572138772",
+    "title": "Bonne Maman: chiến lược thương hiệu là \"không có chiến lược\"",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Bonne Maman"
+    ],
+    "theory": [
+      "Branding Power (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Thiết kế như chiến lược",
+      "Zero-ad"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/bonne-maman/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7613819268572138772"
+  },
+  {
+    "id": "7611605312281300244",
+    "title": "Haidilao: mở rộng con người, không mở rộng nhà hàng",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Chuỗi F&B",
+    "brands": [
+      "Haidilao"
+    ],
+    "theory": [
+      "Process Power (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Chia sẻ lợi nhuận nhân viên",
+      "Dịch vụ khác biệt",
+      "Turnaround"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/haidilao/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7611605312281300244"
+  },
+  {
+    "id": "7610468049061154068",
+    "title": "Shin Ramyeon: tạo ngành mì cay và sống sót qua khủng hoảng",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Đồ đông lạnh",
+    "brands": [
+      "Shin Ramyeon"
+    ],
+    "theory": [
+      "Category Design (Play Bigger)",
+      "Branding Power (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Sản xuất bản địa"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/shin-ramyeon-nongshim/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7610468049061154068"
+  },
+  {
+    "id": "7608999351536323860",
+    "title": "Yakult: đội quân bán hàng và hào quang sức khỏe",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Đồ uống",
+    "brands": [
+      "Yakult"
+    ],
+    "theory": [
+      "Branding Power (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Đội bán hàng trực tiếp (Yakult Ladies)"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/yakult/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7608999351536323860"
+  },
+  {
+    "id": "7607114619802389781",
+    "title": "Arizona: giữ giá 0,99 đô suốt 33 năm",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Đồ uống",
+    "brands": [
+      "Arizona"
+    ],
+    "theory": [],
+    "tactics": [
+      "Giữ giá cố định (EDLP)",
+      "Cost engineering",
+      "Zero-ad"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/arizona-iced-tea/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7607114619802389781"
+  },
+  {
+    "id": "7606041621699939605",
+    "title": "Lão Can Ma: đế chế dầu ớt không vay, không IPO",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Lao Gan Ma"
+    ],
+    "theory": [
+      "Contagious/STEPPS (Berger)"
+    ],
+    "tactics": [
+      "Truyền miệng / Zero-ad",
+      "Không vốn ngoài",
+      "Giữ giá"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/lao-gan-ma-dau-ot/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7606041621699939605"
+  },
+  {
+    "id": "7604545991550749973",
+    "title": "Sriracha (P1): tương ớt trở thành cả một ngành hàng",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Huy Fong Sriracha"
+    ],
+    "theory": [
+      "Branding Power (7 Powers – Helmer)",
+      "Contagious/STEPPS (Berger)"
+    ],
+    "tactics": [
+      "Zero-ad / truyền miệng",
+      "Trở thành tên ngành hàng"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/sriracha-p1/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7604545991550749973"
+  },
+  {
+    "id": "7605308200853769493",
+    "title": "Sriracha (P2): mất nhà cung ứng, mất luôn ngôi vương",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Huy Fong Sriracha"
+    ],
+    "theory": [
+      "Cornered Resource (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Bảo vệ chuỗi cung ứng"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/sriracha-p2-chuoi-cung-ung/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7605308200853769493"
+  },
+  {
     "id": "7599877488491121940",
     "title": "Arc'teryx: thương hiệu trôi dạt khỏi giá trị cốt lõi",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
+    "stage": "truong-thanh",
+    "stage_title": "Trưởng thành & Con hào",
     "nganh": "Khác",
     "brands": [
       "Arc'teryx"
     ],
-    "frameworks": [
-      "Brand drift",
-      "Value consistency"
+    "theory": [
+      "Branding Power (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "Cảnh báo trôi dạt thương hiệu",
+      "Giữ nhất quán giá trị"
     ],
     "author": "@petertheconsumer",
     "url": "../principles/arcteryx-brand-drift/",
     "video": "https://www.tiktok.com/@petertheconsumer/video/7599877488491121940"
   },
   {
-    "id": "7599382783298915604",
-    "title": "Giảm giá đang phá hỏng thương hiệu của bạn",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
+    "id": "7683558913802898708",
+    "title": "Barilla mua Goodles: chiến lược thương hiệu vệ tinh kiểu Rolex/Tudor",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Đồ đông lạnh",
+    "brands": [
+      "Barilla",
+      "Goodles"
+    ],
+    "theory": [
+      "Thương hiệu vệ tinh – Flanker brand"
+    ],
+    "tactics": [
+      "M&A mở rộng danh mục"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../deals/barilla-goodles/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7683558913802898708"
+  },
+  {
+    "id": "7666904591887437077",
+    "title": "Smash Foods gọi 18 triệu đô từ quỹ của LVMH",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Eat Smash Foods",
+      "L Catterton"
+    ],
+    "theory": [],
+    "tactics": [
+      "Mở rộng nền tảng",
+      "Gọi vốn chiến lược"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../deals/smash-foods-l-catterton/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7666904591887437077"
+  },
+  {
+    "id": "7664244972803099925",
+    "title": "Deal flow: Final Boss, Fave, Buffs",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Snack",
+    "brands": [
+      "Final Boss Sour",
+      "Fave",
+      "Buffs"
+    ],
+    "theory": [],
+    "tactics": [
+      "Cầu dẫn bởi content",
+      "Gọi vốn"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../deals/deal-flow-final-boss-fave-buffs/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7664244972803099925"
+  },
+  {
+    "id": "7661399126956936468",
+    "title": "Deal flow: Reformed, Apothékary, Frozen One",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Đồ uống",
+    "brands": [
+      "Reformed",
+      "Apothékary",
+      "Frozen One"
+    ],
+    "theory": [],
+    "tactics": [
+      "Phân phối qua TikTok Shop",
+      "Subscription",
+      "Gọi vốn"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../deals/deal-flow-reformed-apothekary/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7661399126956936468"
+  },
+  {
+    "id": "7655815411572722965",
+    "title": "Deal flow: Stars & Honey, Algae Cooking, Coconut Cult, Gleazy",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Snack",
+    "brands": [
+      "Stars & Honey",
+      "Algae Cooking Club",
+      "Coconut Cult",
+      "Gleazy"
+    ],
+    "theory": [],
+    "tactics": [
+      "Tài trợ thiết bị",
+      "Gọi vốn"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../deals/deal-flow-stars-honey-algae/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7655815411572722965"
+  },
+  {
+    "id": "7615454595225062677",
+    "title": "Luckin mua Blue Bottle: cú lội ngược dòng sau bê bối gian lận",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Chuỗi F&B",
+    "brands": [
+      "Luckin",
+      "Blue Bottle"
+    ],
+    "theory": [
+      "Process Power (7 Powers – Helmer)"
+    ],
+    "tactics": [
+      "M&A",
+      "Turnaround"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../deals/luckin-blue-bottle/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7615454595225062677"
+  },
+  {
+    "id": "7613067257429708052",
+    "title": "Campbell mua Rao's: liệu di sản có bị đánh mất?",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Rao's",
+      "Campbell's"
+    ],
+    "theory": [],
+    "tactics": [
+      "PE playbook",
+      "Rủi ro hậu thâu tóm"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../deals/campbell-raos/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7613067257429708052"
+  },
+  {
+    "id": "7612492478826007828",
+    "title": "Siete về tay Pepsi: cái giá của việc bán mình",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Snack",
+    "brands": [
+      "Siete",
+      "Pepsi"
+    ],
+    "theory": [
+      "Cultural Branding (Holt)"
+    ],
+    "tactics": [
+      "Phản ứng ngược hậu thâu tóm"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../deals/siete-pepsi/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7612492478826007828"
+  },
+  {
+    "id": "7603205074298391828",
+    "title": "Bachan: giành lấy vị trí kệ hàng, bán mình 400 triệu đô",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Bachan",
+      "Marzetti"
+    ],
+    "theory": [
+      "Positioning (Ries & Trout)"
+    ],
+    "tactics": [
+      "Chiến lược vị trí kệ",
+      "M&A"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../deals/bachan-bbq/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7603205074298391828"
+  },
+  {
+    "id": "7609721993931345173",
+    "title": "Cholula: khi private equity \"mở khóa\" thay vì phá hỏng",
+    "stage": "thoai-von",
+    "stage_title": "Thoái vốn & M&A",
+    "nganh": "Gia vị & nước sốt",
+    "brands": [
+      "Cholula",
+      "McCormick"
+    ],
+    "theory": [],
+    "tactics": [
+      "PE flip",
+      "Mở khóa phân phối"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../heritage/cholula/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7609721993931345173"
+  },
+  {
+    "id": "7684715635439357204",
+    "title": "Vì sao ly matcha 10 đô lại hợp lý về kinh tế",
+    "stage": "nguyen-ly",
+    "stage_title": "Nguyên lý xuyên suốt",
+    "nganh": "Đồ uống",
+    "brands": [],
+    "theory": [
+      "Hàng Veblen – tiêu dùng phô trương (Veblen)"
+    ],
+    "tactics": [
+      "Định giá theo cảm nhận",
+      "Premiumization"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../principles/matcha-10-do-perception/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7684715635439357204"
+  },
+  {
+    "id": "7638253083537001748",
+    "title": "Founder CPG bắt buộc phải làm content",
+    "stage": "nguyen-ly",
+    "stage_title": "Nguyên lý xuyên suốt",
     "nganh": "Khác",
     "brands": [],
-    "frameworks": [
-      "Discounting",
-      "Positioning"
+    "theory": [],
+    "tactics": [
+      "Content là kênh phân phối",
+      "Demand-before-supply"
+    ],
+    "author": "@petertheconsumer",
+    "url": "../principles/founder-can-lam-content/",
+    "video": "https://www.tiktok.com/@petertheconsumer/video/7638253083537001748"
+  },
+  {
+    "id": "7599382783298915604",
+    "title": "Giảm giá đang phá hỏng thương hiệu của bạn",
+    "stage": "nguyen-ly",
+    "stage_title": "Nguyên lý xuyên suốt",
+    "nganh": "Khác",
+    "brands": [],
+    "theory": [
+      "Hàng Veblen – tiêu dùng phô trương (Veblen)"
+    ],
+    "tactics": [
+      "Tránh lệ thuộc giảm giá"
     ],
     "author": "@petertheconsumer",
     "url": "../principles/discount-pha-thuong-hieu/",
@@ -978,13 +1122,16 @@
   {
     "id": "7599021212710325524",
     "title": "Phần lớn thương hiệu chết không phải vì sản phẩm tệ",
-    "mang": "Nguyên lý",
-    "mang_title": "Nguyên lý xây thương hiệu",
+    "stage": "nguyen-ly",
+    "stage_title": "Nguyên lý xuyên suốt",
     "nganh": "Khác",
     "brands": [],
-    "frameworks": [
+    "theory": [
+      "Positioning (Ries & Trout)"
+    ],
+    "tactics": [
       "Storytelling",
-      "Clarity"
+      "Sự rõ ràng của thông điệp"
     ],
     "author": "@petertheconsumer",
     "url": "../principles/brand-chet-vi-story/",
