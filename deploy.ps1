@@ -13,6 +13,7 @@ $ielts  = 'D:\Thang\TikTok Transcripts\cohienielts-blog'
 $duongg = 'D:\Thang\TikTok Transcripts\dreamerd-blog'
 $mkt    = 'D:\Thang\TikTok Transcripts\marketing-blog'
 $cs     = 'D:\Thang\TikTok Transcripts\casestudy-blog'
+$shark  = 'D:\Thang\TikTok Transcripts\shark-tank-blog'
 $key    = 'D:/Thang/.ssh/id_mthang96onion_acct'
 $repo   = 'git@github.com:mthang96onion/blog_collection.git'
 $sshCmd = "C:/Windows/System32/OpenSSH/ssh.exe -i $key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o HostName=ssh.github.com -o Port=443"
@@ -30,10 +31,13 @@ Write-Host '== 4/5 Build blog Case Study -> casestudy/ ==' -ForegroundColor Cyan
 python "$cs\build_index.py"   # sinh lai casestudies.json + nav truoc khi build
 python -m mkdocs build -f "$cs\mkdocs.yml" -d "$root\casestudy" --strict
 
+Write-Host '== 5/6 Build blog Shark Tank -> shark-tank/ ==' -ForegroundColor Cyan
+python -m mkdocs build -f "$shark\mkdocs.yml" -d "$root\shark-tank" --strict
+
 $nojekyll = Join-Path $root '.nojekyll'
 if (-not (Test-Path $nojekyll)) { New-Item -ItemType File -Path $nojekyll | Out-Null }
 
-Write-Host '== 5/5 Day len GitHub Pages ==' -ForegroundColor Cyan
+Write-Host '== 6/6 Day len GitHub Pages ==' -ForegroundColor Cyan
 Set-Location $root
 if (-not (Test-Path (Join-Path $root '.git'))) {
   git init -b main -q
