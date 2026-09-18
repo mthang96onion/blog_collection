@@ -131,6 +131,22 @@
     border: 1px solid rgba(255,255,255,.08);
     padding: .2rem .6rem; border-radius: 999px;
   }
+  .reading { width: 100%; max-width: 860px; margin: 3.4rem auto 0; }
+  .reading h3 { font-size: 1.3rem; font-weight: 800; margin-bottom: .3rem; }
+  .reading-sub { color: var(--muted); font-size: .86rem; margin-bottom: 1.1rem; }
+  .reading-tabs { display: flex; gap: .5rem; margin-bottom: 1.1rem; flex-wrap: wrap; }
+  .rt-btn { cursor: pointer; border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.04); color: var(--muted); padding: .38rem .95rem; border-radius: 999px; font: inherit; font-size: .82rem; font-weight: 600; transition: all .15s; }
+  .rt-btn:hover { border-color: rgba(255,255,255,.28); color: var(--text); }
+  .rt-btn.is-active { background: #dc2626; border-color: #dc2626; color: #fff; }
+  .reading-list { display: flex; flex-direction: column; gap: .55rem; }
+  .ri { display: flex; align-items: center; gap: .75rem; text-decoration: none; color: var(--text); background: var(--card); border: 1px solid rgba(255,255,255,.08); border-radius: 12px; padding: .7rem 1rem; transition: border-color .15s, transform .15s; }
+  .ri:hover { border-color: rgba(255,255,255,.22); transform: translateX(3px); }
+  .ri-pill { flex: none; font-size: .68rem; font-weight: 700; padding: .18rem .6rem; border-radius: 999px; }
+  .ri-read { background: rgba(34,160,107,.18); color: #4ade80; }
+  .ri-reading { background: rgba(245,158,11,.18); color: #fbbf24; }
+  .ri-t { flex: 1; font-size: .92rem; font-weight: 600; line-height: 1.35; }
+  .ri-b { flex: none; color: var(--muted); font-size: .74rem; }
+  .reading-empty { color: var(--muted); font-size: .88rem; line-height: 1.6; }
   footer { margin-top: 3rem; color: var(--muted); font-size: .8rem; text-align: center; }
 </style>
 </head>
@@ -186,6 +202,56 @@
     </a>
   </div>
 
+  <section class="reading" id="reading">
+    <h3>📖 Bảng theo dõi đọc của bạn</h3>
+    <p class="reading-sub">Trạng thái bạn đánh dấu ở mọi blog được lưu ngay trên trình duyệt này — tổng hợp về đây để lọc.</p>
+    <div class="reading-tabs">
+      <button class="rt-btn is-active" data-f="all" type="button">Tất cả</button>
+      <button class="rt-btn" data-f="reading" type="button">Đang đọc</button>
+      <button class="rt-btn" data-f="read" type="button">Đã đọc</button>
+    </div>
+    <div id="reading-list" class="reading-list"></div>
+  </section>
+
   <footer>Nội dung tổng hợp phi thương mại cho mục đích học tập · dẫn nguồn video gốc trong từng bài.</footer>
+
+  <script>
+  (function () {
+    var KEY = "blogReadStatus:v1";
+    var NAMES = { ielts: "Luyện thi IELTS", "phat-trien-ban-than": "Phát triển bản thân", marketing: "Marketing tinh gọn", casestudy: "Case Study", "shark-tank": "Shark Tank" };
+    var f = "all";
+    function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; } }
+    function render() {
+      var m = load(), items = Object.keys(m).map(function (k) { return m[k]; });
+      items.sort(function (a, b) { return (b.ts || 0) - (a.ts || 0); });
+      var host = document.getElementById("reading-list"); host.innerHTML = "";
+      var shown = items.filter(function (it) { return f === "all" || it.s === f; });
+      if (!shown.length) {
+        host.innerHTML = '<p class="reading-empty">Chưa có bài nào được đánh dấu. Mở một bài viết bất kỳ và chọn “Đang đọc” hoặc “Đã đọc” ở đầu bài — nó sẽ hiện tại đây.</p>';
+        return;
+      }
+      shown.forEach(function (it) {
+        var a = document.createElement("a"); a.className = "ri"; a.href = it.u || "#";
+        var pill = document.createElement("span");
+        pill.className = "ri-pill " + (it.s === "read" ? "ri-read" : "ri-reading");
+        pill.textContent = it.s === "read" ? "Đã đọc" : "Đang đọc";
+        var t = document.createElement("span"); t.className = "ri-t"; t.textContent = it.t || it.u || "(không tên)";
+        var badge = document.createElement("span"); badge.className = "ri-b"; badge.textContent = NAMES[it.b] || it.b || "";
+        a.appendChild(pill); a.appendChild(t); a.appendChild(badge);
+        host.appendChild(a);
+      });
+    }
+    document.querySelectorAll(".rt-btn").forEach(function (b) {
+      b.addEventListener("click", function () {
+        f = b.getAttribute("data-f");
+        document.querySelectorAll(".rt-btn").forEach(function (x) { x.classList.remove("is-active"); });
+        b.classList.add("is-active");
+        render();
+      });
+    });
+    render();
+    window.addEventListener("storage", render);
+  })();
+  </script>
 </body>
 </html>

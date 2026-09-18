@@ -1,0 +1,18 @@
+/* Reading-status widget + nav dots + nav filter (dùng chung mọi blog) */
+.read-status{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin:.1rem 0 1.5rem;padding:.55rem .8rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:.55rem;background:var(--md-code-bg-color)}
+.read-status__label{font-weight:700;font-size:.72rem;color:var(--md-default-fg-color--light);text-transform:uppercase;letter-spacing:.04em;margin-right:.15rem}
+.read-status__btn{cursor:pointer;border:1px solid var(--md-default-fg-color--lighter);background:transparent;color:var(--md-default-fg-color--light);padding:.28rem .75rem;border-radius:999px;font:inherit;font-size:.75rem;font-weight:600;transition:all .15s}
+.read-status__btn:hover{border-color:var(--md-accent-fg-color);color:var(--md-accent-fg-color)}
+.read-status__btn.is-active[data-val=""]{background:#9e9e9e;border-color:#9e9e9e;color:#fff}
+.read-status__btn.is-active[data-val="reading"]{background:#f59e0b;border-color:#f59e0b;color:#fff}
+.read-status__btn.is-active[data-val="read"]{background:#22a06b;border-color:#22a06b;color:#fff}
+
+.read-dot{display:inline-block;width:.5rem;height:.5rem;border-radius:50%;margin-right:.45rem;vertical-align:middle;flex:none}
+.read-dot--none{background:transparent;box-shadow:inset 0 0 0 1.5px var(--md-default-fg-color--lighter)}
+.read-dot--reading{background:#f59e0b}
+.read-dot--read{background:#22a06b}
+
+.read-filter{display:flex;flex-wrap:wrap;align-items:center;gap:.3rem;padding:.5rem .75rem .3rem}
+.read-filter__cap{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--md-default-fg-color--light);margin-right:.15rem}
+.read-filter__btn{cursor:pointer;border:1px solid var(--md-default-fg-color--lighter);background:transparent;color:var(--md-default-fg-color--light);padding:.18rem .5rem;border-radius:999px;font:inherit;font-size:.67rem;font-weight:600}
+.read-filter__btn.is-active{background:var(--md-accent-fg-color);border-color:var(--md-accent-fg-color);color:var(--md-accent-bg-color,#fff)}
